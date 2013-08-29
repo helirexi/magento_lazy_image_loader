@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Cloudswork_LazyImageLoader>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Cloudswork_LazyImageLoader>
+	</modules>
+</config>

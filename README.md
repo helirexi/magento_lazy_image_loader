@@ -6,7 +6,7 @@ To get started, checkout [http://cloudswork.com](http://www.cloudswork.com)
 
 ## Quick start
 * [Download the latest release.](https://github.com/cloudswork/magento-bootstrap/archive/master.zip)
-* Clone the repo: `git clone git://github.com/cloudswork/magento-bootstrap.git`.
+* Clone the repo: `git clone git://github.com/cloudswork/magento_lazy_image_loader.git`.
 * Upload the module to your magento folder
 * Open the file app/design/frontend/default/your_template_folder/catalog/product/list.phtml
 * Search for: ```<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resi- ze(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />```

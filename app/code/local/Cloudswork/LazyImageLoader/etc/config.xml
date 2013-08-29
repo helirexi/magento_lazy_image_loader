@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Cloudswork_LazyImageLoader>
+			<version>0.1.0</version>
+		</Cloudswork_LazyImageLoader>
+	</modules>
+	<global>
+		<helpers>
+			<cloudswork_lazyimageloader>
+				<class>Cloudswork_LazyImageLoader_Helper</class>
+			</cloudswork_lazyimageloader>
+		</helpers>
+	</global>
+	<frontend>
+		<layout>
+			<updates>
+				<cloudswork_lazyimageloader>
+					<file>cw_lazy_image_loader.xml</file>
+				</cloudswork_lazyimageloader>
+			</updates>
+		</layout>
+	</frontend>
+</config>
