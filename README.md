@@ -1,5 +1,4 @@
 # [Magento Lazy Image Loader](http://www.cloudswork.com)
-=================
 
 Magento Lazy Image Loader will reduce the loading of the catalog list and product view page.
 
