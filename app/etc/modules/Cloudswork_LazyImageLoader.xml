@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-		<Cloudswork_LazyImageLoader>
+		<Cloudswork_Lazyimageloader>
 			<active>true</active>
 			<codePool>local</codePool>
-		</Cloudswork_LazyImageLoader>
+		</Cloudswork_Lazyimageloader>
 	</modules>
 </config>

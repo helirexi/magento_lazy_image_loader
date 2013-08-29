@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+		<cloudswork module="all">
+			<image>1</image>
+			<title>Cloudswork All</title>
+			<sort_order>50</sort_order>
+			<children>
+				<lazyimageloader translate="title" module="lazyimageloader">
+					<title>Lazy Image Loader</title>
+					<action>adminhtml/system_config/edit/section/lazyimageloader</action>
+					<sort_order>0</sort_order>
+				</lazyimageloader>
+			</children>
+		</cloudswork>
+	</menu>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<lazyimageloader translate="title" module="lazyimageloader">
+						<title>lazyimageloader</title>
+						<sort_order>70</sort_order>
+						<children>
+							<lazyimageloader translate="title">
+								<title>Lazy Image Loader</title>
+								<sort_order>0</sort_order>
+							</lazyimageloader>
+						</children>
+					</lazyimageloader>
+					<system>
+						<children>
+							<config>
+								<children>
+									<lazyimageloader translate="title" module="lazyimageloader">
+										<title>Content Management</title>
+									</lazyimageloader>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

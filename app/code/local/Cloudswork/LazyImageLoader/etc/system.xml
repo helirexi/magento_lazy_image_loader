@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<cloudswork translate="label" module="lazyimageloader">
+			<label>Cloudswork</label>
+			<sort_order>10</sort_order>
+			<image>1</image>
+		</cloudswork>
+	</tabs>
+	<sections>
+		<lazyimageloader translate="label" module="lazyimageloader">
+			<label>Lazy Image Loader</label>
+			<tab>cloudswork</tab>
+			<sort_order>1000</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<config translate="label" module="all">
+					<label>Configuration</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>1000</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<speed translate="label">
+							<label>Speed</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>1000</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</speed>
+						<timeout translate="label">
+							<label>Timeout</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>1000</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</timeout>
+					</fields>
+				</config>
+			</groups>
+		</lazyimageloader>
+	</sections>
+</config>
