@@ -11,7 +11,7 @@ To get started, checkout [http://cloudswork.com](http://www.cloudswork.com)
 * Upload the module to your magento folder
 * Open the file app/design/frontend/default/your_template_folder/catalog/product/list.phtml
 * Search for: ```<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resi- ze(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />```
-* Replace with: ```no-highlight <img class="lazy" src="<?php echo $this->getSkinUrl('images/cloudswork/loader_40x40.gif'); ?>" data-src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />```
+* Replace with: ```<img class="lazy" src="<?php echo $this->getSkinUrl('images/cloudswork/loader_40x40.gif'); ?>" data-src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />```
 * Clear your cache in admin > system > cache management
 
 ## Authors
